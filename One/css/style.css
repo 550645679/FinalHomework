@@ -1,0 +1,7 @@
+.textcenter{text-align:center;}
+.margincenter{margin:0 auto;}
+.border{border-radius:5px;}
+body{
+    background:#92C1D1 url(../images/background.jpg) fixed center top no-repeat;
+    background-size:cover;
+}
