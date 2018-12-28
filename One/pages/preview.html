@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EchoCode - 作品预览</title>
+    <title>Lemon - 作品预览</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../layui/css/layui.css">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="../js/bootstrap.js" charset="utf-8"></script>
+    <script src="../js/popper.js" charset="utf-8"></script>
 </head>
 <body>
-    <ul class="layui-nav center1">
-        <li class="layui-nav-item"><a href="../">EchoCode</a></li>
-        <li class="layui-nav-item layui-this">
-            <a href="preview.html">作品预览</a>
-            <dl class="layui-nav-child">
-                <dd><a href="preview.html#preview1">预览一</a></dd>
-                <dd><a href="preview.html#preview2">预览二</a></dd>
-                <dd><a href="preview.html#preview3">预览三</a></dd>
-            </dl>
-        </li>
-        <li class="layui-nav-item"><a href="prince.html">产品定价</a></li>
-        <li class="layui-nav-item"><a href="news.html">企业新闻</a></li>
-        <li class="layui-nav-item"><a href="unit.html">合作单位</a></li>
-        <li class="layui-nav-item"><a href="solution.html">解决方案</a></li>
-        <li class="layui-nav-item"><a href="forum.html">社区讨论</a></li>
-        <li class="layui-nav-item"><a href="join.html">加入我们</a></li>
-        <li class="layui-nav-item"><a href="about.html">关于我们</a></li>
-    </ul>
-    <script type="text/javascript">
-        (function(W){
-            if(/iphone|nokia|sony|ericsson|mot|samsung|sgh|lg|philips|panasonic|alcatel|lenovo|cldc|midp|wap|mobile/i.test(navigator.userAgent.toLowerCase())){
-                W.location.href = '../moblie';
-            }
-        })(window)
-    </script>
-    <script src="../layui/layui.js" charset="utf-8"></script>
-    <script>
-        layui.use('element', function(){
-            var element = layui.element;
-            element.on('nav(demo)', function(elem){
-                layer.msg(elem.text());
-            });
-        });
-    </script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Lemon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">首页</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">作品预览</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="preview.html#view1">预览一</a>
+                        <a class="dropdown-item" href="preview.html#view2">预览二</a>
+                        <a class="dropdown-item" href="preview.html#view3">预览三</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prince.html">产品定价</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="unit.html">合作单位</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forum.html">社区讨论</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="join.html">加入我们</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">关于我们</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="请输入要查找的内容" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜一下</button>
+            </form>
+        </div>
+    </nav>
 </body>
 </html>

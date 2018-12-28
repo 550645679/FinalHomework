@@ -11,4 +11,7 @@ body{
 .carousel{
     max-width:900px;
     max-height:393px;
+    min-width:300px;
+    min-height:131px;
+    size:cover;
 }
