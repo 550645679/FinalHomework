@@ -15,3 +15,13 @@ body{
     min-height:131px;
     size:cover;
 }
+ul.unim li{
+    list-style:none;
+    float:left;
+    width:195px;
+    height:80px;
+    line-height:80px;
+    padding:0 15px;
+}
+ul.unim li img{width:165px;}
+p{font:15px 'Microsoft YaHei';}
