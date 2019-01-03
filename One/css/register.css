@@ -49,5 +49,6 @@ img{
 .mask{
   background:rgba(255,255,255,0.5);
   border-radius:5px;
+  border:1px #999 solid;
 }
 a:link,a:visited,a:hover,a:active{text-decoration:none;}
