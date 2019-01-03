@@ -15,8 +15,8 @@ body{
     min-height:131px;
     size:cover;
 }
+ul li{list-style:none;}
 ul.unim li{
-    list-style:none;
     float:left;
     width:195px;
     height:80px;
