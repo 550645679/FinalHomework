@@ -25,3 +25,7 @@ ul.unim li{
 }
 ul.unim li img{width:165px;}
 p{font:15px 'Microsoft YaHei';}
+div div div a img{
+    border:1px #999 solid;
+    border-radius:5px;
+}
