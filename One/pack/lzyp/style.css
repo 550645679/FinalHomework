@@ -1,16 +1,11 @@
-html,body{height:100px;}
 *{
 	margin:0 auto;
 	padding:0;
 }
 body{
-	background:url("http://api.echocode.club/nstu.jpg") fixed right center no-repeat;
+	background:url("../../images/nstu.jpg") fixed right center no-repeat;
 	background-size:cover;
 	text-align:center;
-	display:-ms-flexbox;
-	display:flex;
-	-ms-flex-align:center;
-	align-items:center;
 	padding-top:40px;
 	padding-bottom:40px;
 }
@@ -25,8 +20,9 @@ div.content{
 	padding:20px;
 	margin:auto;
 }
-div.content img{width:320px;}
-div.content p{font:16px "Microsoft YaHei";}
+img{width:320px;}
+div.content p{margin-top:20px;}
+p{font:15px "Microsoft YaHei";}
 div.foot{
 	position:absolute;
 	bottom:0;
@@ -34,16 +30,4 @@ div.foot{
 	height:60px;
 	background:rgba(255,255,255,0.5);
 }
-div.foot p{
-	font:16px 'Microsoft YaHei';
-	line-height:60px;
-}
-.bd-placeholder-img{
-   	font-size:1.125rem;
-   	text-anchor:middle;
-}
-@media(min-width:768px){
-   	.bd-placeholder-img-lg{
-   		font-size:3.5rem;
-   	}
-}
+div.foot p{line-height:60px;}
