@@ -6,28 +6,32 @@ body{
 	background:url("../../images/nstu.jpg") fixed right center no-repeat;
 	background-size:cover;
 	text-align:center;
-	padding-top:40px;
-	padding-bottom:40px;
 }
 div.content{
-	margin-top:25px;
+	margin-top:15px;
+	margin-bottom:15px;
 	background:rgba(255,255,255,0.75);
-	border:0 #999 solid;
+	border:1px #999 solid;
 	border-radius:5px;
-	position:relative;
 	width:100%;
-	max-width:360px;
+	max-width:300px;
 	padding:20px;
-	margin:auto;
 }
-img{width:320px;}
-div.content p{margin-top:20px;}
+img{width:260px;}
+div.content p,div.content div.button{margin-top:20px;}
 p{font:15px "Microsoft YaHei";}
-div.foot{
-	position:absolute;
-	bottom:0;
-	width:100%;
-	height:60px;
-	background:rgba(255,255,255,0.5);
+div.content div.button button{
+	width:120px;
+	height:40px;
+	border-width:0px;
+	border-radius:3px;
+	background:#1E90FF;
+	cursor:pointer;
+	outline:none;
+	font:16px "Microsoft YaHei";
 }
-div.foot p{line-height:60px;}
+div.content div.button button:hover{background:#5599FF;}
+a:link,a:visited,a:hover,a:active{
+	text-decoration:none;
+	color:white;
+}
