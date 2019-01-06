@@ -27,50 +27,21 @@
     </style>
 </head>
 <body>
-    <!-- Navgation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="max-width:900px;margin:0 auto;">
-            <a class="navbar-brand" href="#">Lemon</a>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">首页</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">典型案例</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pages/preview.html#view1">淘宝优惠券</a>
-                        <a class="dropdown-item" href="pages/preview.html#view2">2048</a>
-                        <!-- <div class="dropdown-divider"></div> -->
-                        <a class="dropdown-item" href="pages/preview.html#view3">站点模仿</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/prince.html">产品定价</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/unit.html">合作伙伴</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/forum.html">社区讨论</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/join.html">加入我们</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/about.html">关于我们</a>
-                </li>
-            </ul>
-            
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">登录</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.html">注册</a>
-                </li> 
-            </ul>
-        </div>
-    </nav>
+    <!-- Navigation -->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Lemon</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="#">首页</a>
+            <a class="p-2 text-dark" href="pages/preview.html">典型案例</a>
+            <a class="p-2 text-dark" href="pages/prince.html">产品定价</a>
+            <a class="p-2 text-dark" href="pages/unit.html">合作伙伴</a>
+            <a class="p-2 text-dark" href="pages/forum.html">社区讨论</a>
+            <a class="p-2 text-dark" href="pages/join.html">加入我们</a>
+            <a class="p-2 text-dark" href="pages/about.html">关于我们</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="login.html">登录</a>
+        <a class="btn btn-primary" href="register.html" style="margin-left:20px;">注册</a>
+    </div>
     <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide carousel margincenter" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -103,22 +74,26 @@
         </a>
     </div>
     <!-- Content -->
-    <div class="card bg-light text-dark margincenter textcenter" style="max-width:900px;margin-top:10px;">
-        <div class="card-body">
-            <div style="width:279px;float:left;margin-right:10px;">
-                <img src="images/safe.png">
-                <h3>安全</h3>
-                <p>创新智能的安全防护思路，拒绝一刀切式的安全防护引入深度学习引擎技术，“聪明”地守护财富安全</p>
+    <div class="card-group textcenter margincenter" style="margin-top:10px;max-width:900px;">
+        <div class="card" style="max-width:300px;">
+            <img src="images/safe.png" style="width:128px;margin-top:20px;" class="card-img-top margincenter">
+            <div class="card-body">
+                <h5 class="card-title">安全</h5>
+                <p class="card-text">创新智能的安全防护思路，拒绝一刀切式的安全防护引入深度学习引擎技术，“聪明”地守护财富安全</p>
             </div>
-            <div style="width:279px;float:left;margin-right:10px;">
-                <img src="images/speedup.png">
-                <h3>加速</h3>
-                <p>海量CDN节点资源，部署数十个大型数据中心全面提升用户网站的访问速度，保障网站稳定好用</p>
+        </div>
+        <div class="card" style="max-width:300px;">
+            <img src="images/speedup.png" style="width:128px;margin-top:20px;" class="card-img-top margincenter">
+            <div class="card-body">
+                <h5 class="card-title">加速</h5>
+                <p class="card-text">海量CDN节点资源，部署数十个大型数据中心全面提升用户网站的访问速度，保障网站稳定好用</p>
             </div>
-            <div style="width:279px;float:left;">
-                <img src="images/seo.png">
-                <h3>流量挖掘</h3>
-                <p>深度结合搜索引擎技术，保证搜索引擎权重稳定性为用户网站提供更利于搜索引擎爬取的优先策略</p>
+        </div>
+        <div class="card" style="max-width:300px;">
+            <img src="images/seo.png" style="width:128px;margin-top:20px;" class="card-img-top margincenter">
+            <div class="card-body">
+                <h5 class="card-title">流量挖掘</h5>
+                <p class="card-text">深度结合搜索引擎技术，保证搜索引擎权重稳定性为用户网站提供更利于搜索引擎爬取的优先策略</p>
             </div>
         </div>
     </div>
@@ -142,29 +117,37 @@
         </div>
     </div>
     <!-- Case -->
-    <div class="card bg-light text-dark margincenter textcenter" style="max-width:900px;margin-top:10px;">
+    <div class="card margincenter textcenter" style="max-width:900px;margin-top:10px;">
         <div class="card-body">
             <h2>典型案例</h2>
             <p>在众多的竞争者中我们脱引而出，这其中的缘由又是什么</p>
-            <div style="margin-top:15px;">
-                <h5>案例一：淘宝优惠券</h5>
-                <p>利用淘宝自带的大数据平台搜索出带有大额优惠的店家(商品)</p>
-                <a href="pages/preview.html#view1"><img class="img-fluid" src="images/discount.png" title="淘宝优惠券"></a>
-            </div>
-            <div style="margin-top:15px;">
-                <h5>案例二：2048</h5>
-                <p>一个基于网页服务的HTML5小游戏</p>
-                <a href="pages/preview.html#view2"><img class="img-fluid" src="images/2048.png" title="2048"></a>
-            </div>
-            <div style="margin-top:15px;">
-                <h5>案例三：站点模仿</h5>
-                <p>使用HTML5进行模仿客户站点</p>
-                <a href="pages/preview.html#view3"><img class="img-fluid" src="images/lzyp.png" title="站点模仿"></a>
+            <div class="card-group">
+                <div class="card">
+                    <a href="pages/preview.html#view1" style="width:284px;height:284px;background:url(images/blurry.png) no-repeat;"><img src="images/discount.png" style="width:284px;margin-top:119px;" class="card-img-top" title="淘宝优惠券"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">案例一：淘宝优惠券</h5>
+                        <p class="card-text">利用淘宝自带的大数据平台搜索出带有大额优惠的店家(商品)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="pages/preview.html#view2" style="width:284px;height:284px;background:url(images/blurry.png) no-repeat;"><img src="images/2048.png" style="width:160px;height:284px;" class="card-img-top" title="2048"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">案例二：2048</h5>
+                        <p class="card-text">一个基于网页服务的HTML5小游戏</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="pages/preview.html#view3" style="width:284px;height:284px;background:url(images/blurry.png) no-repeat;"><img src="images/lzyp.png" style="width:262px;height:284px;" class="card-img-top" title="站点模仿"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">案例三：站点模仿</h5>
+                        <p class="card-text">使用HTML5进行模仿客户站点</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Prince -->
-    <div class="card bg-light text-dark margincenter textcenter" style="max-width:900px;margin-top:10px;">
+    <div class="card margincenter textcenter" style="max-width:900px;margin-top:10px;">
         <div class="card-body">
             <h2>产品定价</h2>
             <p>我们针对不同的用户推出了不同的套餐，对于各种需求的用户做到了全需求覆盖</p>
@@ -177,9 +160,9 @@
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">￥0 <small class="text-muted">/ 永久</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>10 users included</li>
-                                <li>2 GB of storage</li>
-                                <li>Email support</li>
+                                <li>仅支持本人使用</li>
+                                <li>5GB的加速服务</li>
+                                <li>邮件在线服务</li>
                                 <li>12*5 客服在线服务</li>
                             </ul>
                             <button type="button" class="btn btn-lg btn-block btn-outline-primary">点击使用</button>
@@ -192,9 +175,9 @@
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">￥2698 <small class="text-muted">/ 年</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>20 users included</li>
-                                <li>10 GB of storage</li>
-                                <li>Priority email support</li>
+                                <li>支持50个子账户使用</li>
+                                <li>100GB的加速服务</li>
+                                <li>实时邮件在线服务</li>
                                 <li>16*7 客服在线服务</li>
                             </ul>
                             <button type="button" class="btn btn-lg btn-block btn-primary">立即购买</button>
@@ -207,15 +190,20 @@
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">￥8848 <small class="text-muted">/ 年</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>30 users included</li>
-                                <li>15 GB of storage</li>
-                                <li>Phone and email support</li>
+                                <li>支持300个子账户使用</li>
+                                <li>1TB的加速服务</li>
+                                <li>全天候的电话和邮件服务</li>
                                 <li>24*7 客服在线服务</li>
                             </ul>
                         <button type="button" class="btn btn-lg btn-block btn-primary">联系我们</button>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="card margincenter textcenter" style="max-width:900px;margin-top:10px;">
+        <div class="card-body">
+
         </div>
     </div>
     <div id="foot">
@@ -231,9 +219,6 @@
                     </div>
                 </div>
             </form> -->
-        </div>
-        <div class="down">
-            
         </div>
     </div>
 </body>
