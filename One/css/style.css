@@ -5,7 +5,7 @@
     margin-top:10px;
 }
 body{
-    background:#92C1D1 url(../images/background.jpg) fixed center top no-repeat;
+    background:url(../images/background.jpg) fixed center top no-repeat;
     background-size:cover;
 }
 .carousel{
@@ -25,7 +25,4 @@ ul.unim li{
 }
 ul.unim li img{width:165px;}
 p{font:15px 'Microsoft YaHei';}
-div div div a img{
-    border:1px #999 solid;
-    border-radius:5px;
-}
+a:link,a:visited,a:hover,a:active{text-decoration:none!important;}
