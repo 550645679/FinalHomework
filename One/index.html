@@ -12,6 +12,19 @@
     <script src="js/bootstrap.js" charset="utf-8"></script>
     <script src="js/popper.js" charset="utf-8"></script>
     <script src="js/copy.js"></script>
+    <style>
+        @media(min-width:768px){
+            html{font-size:16px;}
+            .bd-placeholder-img-lg{font-size:3.5rem;}
+        }
+        .container{max-width:898px;}
+        .pricing-header{max-width:638px;}
+        .card-deck .card{min-width:158px;}
+        .bd-placeholder-img{
+            font-size:1.125rem;
+            text-anchor:middle;
+        }
+    </style>
 </head>
 <body>
     <!-- Navgation -->
@@ -153,12 +166,61 @@
     <!-- Prince -->
     <div class="card bg-light text-dark margincenter textcenter" style="max-width:900px;margin-top:10px;">
         <div class="card-body">
-
+            <h2>产品定价</h2>
+            <p>我们针对不同的用户推出了不同的套餐，对于各种需求的用户做到了全需求覆盖</p>
+            <div class="container">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">个人版</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">￥0 <small class="text-muted">/ 永久</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>12*5 客服在线服务</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">点击使用</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">专业版</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">￥2698 <small class="text-muted">/ 年</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>16*7 客服在线服务</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">立即购买</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">企业版</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">￥8848 <small class="text-muted">/ 年</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>24*7 客服在线服务</li>
+                            </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">联系我们</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="foot">
         <div class="up">
-            <form class="form-inline" action="https://www.so.com/s" method="get" target="_blank">
+            <!-- <form class="form-inline" action="https://www.so.com/s" method="get" target="_blank">
                 <div class="form-row align-items-center">
                     <div class="col-auto">
                         <label class="sr-only" for="inlineFormInput">Name</label>
@@ -168,7 +230,7 @@
                         <button type="submit" class="btn btn-primary mb-2">搜一下</button>
                     </div>
                 </div>
-            </form>
+            </form> -->
         </div>
         <div class="down">
             
