@@ -1,20 +1,11 @@
 .textcenter{text-align:center;}
 .margincenter{margin:0 auto;}
-.border{
-    border-radius:8px;
-    margin-top:10px;
-}
+.bdr{border-radius:5px;}
 body{
     background:url(../images/background.jpg) fixed center top no-repeat;
     background-size:cover;
 }
-.carousel{
-    max-width:900px;
-    max-height:393px;
-    min-width:300px;
-    min-height:131px;
-    size:cover;
-}
+.sma{background:rgba(255,255,255,0.5)!important;}
 ul li{list-style:none;}
 ul.unim li{
     float:left;
