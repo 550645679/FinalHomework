@@ -7,13 +7,7 @@ body{
 }
 .sma{background:rgba(255,255,255,0.5)!important;}
 ul li{list-style:none;}
-ul.unim li{
-    float:left;
-    width:195px;
-    height:80px;
-    line-height:80px;
-    padding:0 15px;
-}
-ul.unim li img{width:165px;}
+.unim img{width:160px;}
+.unim{padding:10px;}
 p{font:15px 'Microsoft YaHei';}
 a:link,a:visited,a:hover,a:active{text-decoration:none!important;}
