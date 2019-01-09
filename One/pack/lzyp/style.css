@@ -14,15 +14,16 @@ div.content{
 	border:1px #999 solid;
 	border-radius:5px;
 	width:100%;
-	max-width:300px;
-	padding:20px;
+	max-width:260px;
+	padding:15px;
 }
-img{width:260px;}
-div.content p,div.content div.button{margin-top:20px;}
-p{font:15px "Microsoft YaHei";}
+img{width:220px;}
+div.content p,div.content div.button{margin-top:15px;}
+p.p1{font:15px "Microsoft YaHei";}
+p.p2{font:13px "Microsoft YaHei";}
 div.content div.button button{
-	width:120px;
-	height:40px;
+	width:110px;
+	height:35px;
 	border-width:0px;
 	border-radius:3px;
 	background:#1E90FF;
